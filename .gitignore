@@ -1,17 +1,22 @@
+# Virtual environment
 venv/
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-.env
-.vscode/
-.idea/
-*.egg-info/
-dist/
-build/
-.DS_Store
-tmpclaude-*
+
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Temp files
+tmpclaude*
 tmp*
 *.tmp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
